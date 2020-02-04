@@ -1,4 +1,7 @@
 {
     "name": "kishor/mvc",
-    "require": {}
+    "require": {},
+    "autoload" :{
+    "psr-4": {"mvc\\": "src/"}
+    }
 }
